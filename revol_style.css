@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+.start-f {
+    background-color: aliceblue;
+}
+
+.start-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Design-1 CSS*/
+.page-1 {
+    background-image: url(bg.jpg);
+    background-size:cover;
+    padding-bottom: 180px;
+}
+.icon {
+    width: 100px;
+    padding-left: 20px;
+}
+.head {
+    color: white;
+    font-size: 40px;
+}
+.content-wraper {
+   /*center if u want font in center */
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+#col {
+    color:#37b3f6;
+}
+.content-wraper p {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 200px;
+    font-family: -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.data-1 {
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul.nav-header li {
+    display: inline;
+}
+.ha {
+    padding-left: 700px;
+}
+.nav-header {
+    padding-top: 10px;
+}
+#p1-kick {
+    text-align: center;
+    background-color:#f6f6f6;
+    padding:20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Page-2 CSS*/
+
+.page-2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+.video {
+    height: 300px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.icon-p2 {
+    width: 80px;
+}
+.icon-heading-p2 {
+    color:#37b3f6;
+    font-weight: bolder;
+    text-align: center;
+}
+.icon-data-p2 {
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+.icon-line {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.icon-data2-p2 {
+    font-size: 15px;
+}
+.mybtn {
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #37b3f6;
+    border: #37b3f6;
+}
+
+/*Revol Page */
+
+.the-revol {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+.revols {
+    background-color:#f6f6f6;
+    margin:50px 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+ol.order-list li {
+    display: inline;
+}
+.order-list {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.revol-list {
+    width: 100px;
+    height: 100px;
+}
+.number {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25%;
+}
+.data-revol {
+    padding-left: 30%;
+}
+
+/* HOW IT WORKS Page */
+
+.header-How-it-work {
+    font-size: 1.7em;
+    font-weight:bolder;
+    padding-top: 150px;
+}
+.data-How-it-work {
+    padding-right:50px;
+    font-size: 17px;
+    font-weight: 400;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.how-it-work-btn {
+    background-color: #37b3f6;
+    border-radius: 20px;
+    border: #37b3f6;
+    width: 150px;
+    height: 50px;
+}
+.img-How-it-work {
+    width: 500px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/* delivery-box */
+
+.delivery-box {
+    background-color: #f6f6f6;
+    padding: 50px 0 30px 200px;
+}
+.img-delivery-box {
+    width: 120px;
+}
+.content-delivery-box {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* orders - revols */
+.order-revols {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.header-order-revols {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.line-through {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.cost {
+    font-size: 30px;
+    font-weight: bolder;
+    color:#37b3f6;
+}
+.reserve-btn {
+    background-color:#323a45;
+    float: left;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    padding-left: 40px;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.order-paragraph {
+    font-size: 12px;
+    padding:0 300px;
+    text-align: center;
+
+}
+.sold-out-btn {
+    background-color: #37b3f6;
+    border-radius: 20px;
+    border: #37b3f6;
+    width: 120px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+}
+/* Last Page */
+
+.last-page {
+    margin-top: 100px;
+    background-color:#f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+}
+.sign-up-btn {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+/* Footer Page*/
+.footer-page {
+    margin-top: 30px;
+    margin-block-end: 20px;
+    color: black;
+}
+.footer-last-data {
+    float: right;
+    margin-right: 200px;
+}
+
+.pagi {
+    margin: 3% 35%;
+}
